@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+future-fstrings = "*"
+numpy = "==1.19.0"
+bpy = "==2.82.1"
+django = "==3.2.15"
+djangorestframework = "==3.13.1"
+google-cloud-storage = "==2.5.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
